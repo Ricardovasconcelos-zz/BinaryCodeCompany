@@ -11,9 +11,23 @@
 	color: transparent;
 }
 
+body{
+	
+	background: url('img/capa.jpg');
+	background-attachment: fixed;
+	overflow-x: hidden;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-size: 13pt;
+		font-weight: 200;
+		line-height: 1.65;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+	
+}
 nav.navbar-transparente {
-	padding: 15px 0px;
-	background: rgba(0, 0, 0, 0.6);
+	padding: 10px 0px;
+	background: rgba(0, 0, 0, 0.1);
 	border: none;
 }
 
@@ -26,6 +40,14 @@ nav.navbar-transparente {
 	height: 16px;
 	background: white;
 	margin: 16px 10px;
+}
+
+.img-logo{
+	padding: 10px 0px;
+	color: white;
+}
+.img-logo:hover{
+	color: yellow;
 }
 
 .navbar-inverse .navbar-nav>li>a {
