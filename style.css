@@ -98,7 +98,7 @@ width: 100%;
 .titulo-foto{
 	background-color: red;
 }
-#jobs{
+.jobs{
 	text-align: center;
 }
 /*-- IMG SUPERMERCADO ONLINE -- */
@@ -120,8 +120,10 @@ width: 100%;
 /*-- IMG SANDUICHE  -- */
 .imagem-sanduiche{
 	background-image: url('img/sanduba.jpg');  
-	
 	text-align: center;
+	height:300px;
+	width:319px;
+	background-size:100% auto;
 }
   
   .texto{
