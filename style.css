@@ -28,7 +28,7 @@ body{
 
 nav.navbar-transparente {
 	padding: 10px 0px;
-	background: rgba(0, 0, 0, 0.1);
+	background: rgba(0, 0, 0, 0);
 	border: none;
 }
 
@@ -85,6 +85,16 @@ width: 100%;
 #Sobre{
 	text-align: center;
 }
+.icones{
+
+}
+.icones:hover{
+
+		transition: all 0.7s;
+		-webkit-transform: scale(1.1);
+		-ms-transform: scale(1.1);
+		transform: scale(1.1);		
+}
 /* ========================= SERVIÇOS ======================== */
 #trabalhos{
 	background: #f8f9fa;
@@ -94,12 +104,12 @@ width: 100%;
 	padding-bottom: 100px;
 }
 
-/* ========================= TRABALHOS ======================== */
 .titulo-foto{
 	background-color: red;
 }
-.jobs{
+#jobs{
 	text-align: center;
+
 }
 /*-- IMG SUPERMERCADO ONLINE -- */
 .imagem-market{
@@ -108,6 +118,8 @@ width: 100%;
 	width:319px;
 	background-size:100% auto;
 	text-align: center;
+	border-radius: 20px;
+	background-repeat: no-repeat;
   }
 /*-- IMG PIZZA  -- */
 .imagem-pizza{
@@ -116,6 +128,8 @@ width: 100%;
 	width:319px;
 	background-size:100% auto;
 	text-align: center;
+	border-radius: 20px;
+	background-repeat: no-repeat;
 }
 /*-- IMG SANDUICHE  -- */
 .imagem-sanduiche{
@@ -124,8 +138,30 @@ width: 100%;
 	height:300px;
 	width:319px;
 	background-size:100% auto;
+	border-radius: 20px;
 }
-  
+#espacamento-trabalhos{
+	margin-top: 20px;
+}
+
+.avatar {
+
+	display: inline-block;
+	
+}
+
+.avatar img {
+		display:block;
+	}
+
+.avatar img:hover{
+transition: all 0.5s;
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
+}
+
   .texto{
 	height:300px;
 	width:319px;
@@ -135,7 +171,9 @@ width: 100%;
 	color:white;
 	opacity:0;
 	transition: opacity .2s linear;
-	background-color:rgba(51, 48, 194, 0.3);
+	background-color: rgba(39, 44, 110, 9);
+	border-radius: 20px;
+	
   }
   
   .imagem-market:hover .texto{
