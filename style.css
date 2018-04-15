@@ -7,6 +7,7 @@ body{
 	background: url('img/capa.jpg');
 	background-attachment: fixed;
 	overflow-x: hidden;
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 13pt;
 		font-weight: 200;
 		line-height: 1.65;
@@ -64,9 +65,9 @@ nav.navbar-transparente {
 display: table;
 width: 100%;
 height: 590px;
-
-
 }
+
+
 #title{
 	text-shadow: 1px 3px 30px black;
 	margin-top: 20px;
@@ -87,6 +88,31 @@ height: 590px;
 	padding-top: 50px;
 	padding-bottom: 100px;
 	
+}
+.titulo{
+    font-weight: 300;
+    font-size: 25pt;
+    font-family: 'lora', serif;
+   
+}
+.titulo-sobre{
+	font-size: 21px;
+	font-weight: 600;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	color: #404040;
+}
+.skill{
+	color: #a6a6a6;
+	font-family: 'Lora', serif;
+	text-align: center;
+	font-size: 23px;
+}
+.sub{
+    font-size: 20pt;
+    font-weight: 300;
+    color: #a6a6a6;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
 }
 .titulo-servicos{
 	text-align: center
@@ -221,4 +247,7 @@ h1{
 	font-size: 50px;
 	font-weight: 900;
 	margin-bottom: 50px;
+}
+p{
+	font-size: 20px;
 }
