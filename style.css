@@ -21,7 +21,7 @@ body{
 	height: 40px;
 	width: 132px;
 	display: block;
-	background: url('imagens/spotify.svg') no-repeat;
+	background: url('') no-repeat;
 	background-size: contain;
 	color: transparent;
 	font-family: 'Russo One', sans-serif;
@@ -85,7 +85,7 @@ height: 590px;
 	background: white;
 	width: 100%;
 	height: 70%;
-	padding-top: 50px;
+	padding-top: 10px;
 	padding-bottom: 100px;
 	
 }
@@ -105,7 +105,7 @@ height: 590px;
 	color: #a6a6a6;
 	font-family: 'Lora', serif;
 	text-align: center;
-	font-size: 23px;
+	font-size: 20px;
 }
 .sub{
     font-size: 20pt;
@@ -135,7 +135,7 @@ height: 590px;
 	background: #f8f9fa;
 	width: 100%;
 	height: 70%;
-	padding-top: 50px;
+	padding-top: 10px;
 	padding-bottom: 100px;
 }
 
@@ -144,6 +144,7 @@ height: 590px;
 }
 #jobs{
 	text-align: center;
+	cursor: pointer;
 
 }
 /*-- IMG SUPERMERCADO ONLINE -- */
@@ -166,6 +167,7 @@ height: 590px;
 	border-radius: 20px;
 	background-repeat: no-repeat;
 }
+
 /*-- IMG SANDUICHE  -- */
 .imagem-sanduiche{
 	background-image: url('img/sanduba.jpg');  
@@ -229,12 +231,11 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 
 /* ========================= TECNOLOGIA ======================== */   
 #tecnologia{
-	background-color: #9a8fff;
+	background-color: white;
 	padding-top: 50px;
 	width: 100%;
 	height: 70%;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-	text-shadow: 4px 5px 20px rgba(0,0,0,5);
 } 
 
 #center{
@@ -246,16 +247,14 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 /* ========================= LEGAL ======================== */   
 
 #legal{
-	background: #acd8ef;
+	background: #f8f9fa;
 	padding-top: 50px;
 	width: 100%;
 	height: 70%;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-	text-shadow: 4px 5px 20px rgba(0,0,0,5);
 }
 
 #color-letra{
-	color: white;
 	text-align: center;
 }
 
@@ -272,6 +271,11 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 	height: 70%;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 	text-shadow: 4px 5px 20px rgba(0,0,0,5);
+	
+}
+.mensagem{
+	font-family: 'Lora', serif;
+	text-align: center;
 }
 #boton{
 
@@ -315,8 +319,23 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 #centro{
 	text-align: center
 }
+
+.tamanho-letra{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    text-shadow: 4px 3px 3px rgba(0,0,0,0.2);
+}
 #bottom{
-	padding-bottom: 20px;
+	padding-bottom: 50px;
+	
+}
+.nomeCompany{
+	font-weight: 900;
+	color: green;
+}
+.nomeCompany:hover{
+	color: #a432cb;
 }
 /* ========================= Tipografia ======================== */
 #rodape{
@@ -337,6 +356,14 @@ h1{
 p{
 	font-size: 20px;
 }
+h2 {
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    text-shadow: 4px 3px 3px rgba(0,0,0,0.2);
+}
+
+
 
 /* Media queries */
 /* xs <768 */
