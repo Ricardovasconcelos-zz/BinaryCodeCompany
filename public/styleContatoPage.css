@@ -116,6 +116,11 @@ nav.navbar-transparente {
 #foto{
 	text-align: center
 }
+#number{
+	color: #a432cb;
+	font-weight: 900;
+	text-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+}
 
 /* ========================= RODAPÉ ======================== */
 
