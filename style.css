@@ -1,7 +1,5 @@
 
 /* ========================= layout ======================== */
-
-
 body{
 	
 	background: url('img/capa.jpg');
@@ -49,7 +47,7 @@ nav.navbar-transparente {
 	color: white;
 }
 .img-logo:hover{
-	color: #3ce55a;
+	color: yellow;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -58,7 +56,7 @@ nav.navbar-transparente {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-	color: #3ce55a;
+	color: yellow;
 }
 /* ========================= IMAGEM CAPA ======================== */
 .capa{
@@ -231,7 +229,8 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 
 /* ========================= TECNOLOGIA ======================== */   
 #tecnologia{
-	background-color: white;
+	background-color: #f8f9fa;
+	
 	padding-top: 50px;
 	width: 100%;
 	height: 70%;
@@ -247,7 +246,7 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 /* ========================= LEGAL ======================== */   
 
 #legal{
-	background: #f8f9fa;
+	background: white;
 	padding-top: 50px;
 	width: 100%;
 	height: 70%;
@@ -284,9 +283,10 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 	display: block;
 	margin:auto;
-	margin-top: 50px;
+	margin-top: 40px;
 	text-align: center;
-	font-size: 15px;
+	font-size: 18px;
+	text-shadow: 1px 1px 5px black
 }
 .btn-custom{
 
@@ -307,9 +307,9 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 
 }
 .btn-roxo:hover{
-	background: #f48d2f;
+	background: yellow;
 	color: white;
-	transition: all 0.5s;
+	transition: all 0.6s;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -317,7 +317,12 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 
 }
 #centro{
-	text-align: center
+	text-align: center;
+}
+#centroDown{
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
 .tamanho-letra{
@@ -330,14 +335,9 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 	padding-bottom: 50px;
 	
 }
-.nomeCompany{
-	font-weight: 900;
-	color: green;
-}
-.nomeCompany:hover{
-	color: #a432cb;
-}
-/* ========================= Tipografia ======================== */
+
+
+/* ========================= RODAPÉ ======================== */
 #rodape{
 	background-color: #232121;
 	color: white;
@@ -346,6 +346,14 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 	height: 70%;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 	text-shadow: 4px 5px 20px rgba(0,0,0,5);
+}
+.nomeCompany{
+	font-weight: 900;
+	color: #40ccff;
+}
+.nomeCompany:hover{
+	color: yellow;
+	transition: all 0.5s;
 }
 /* ========================= Tipografia ======================== */
 h1{
@@ -360,7 +368,7 @@ h2 {
     font-size: 70px;
     font-weight: 700;
     letter-spacing: -0.03em;
-    text-shadow: 4px 3px 3px rgba(0,0,0,0.2);
+    text-shadow: 1px 3px 3px rgba(0,0,0,0.2);
 }
 
 
@@ -370,7 +378,7 @@ h2 {
 @media screen and (max-width: 767px){
 
 	h2{
-		font-size: 40px;
+		font-size: 35px;
 
 	}
 
@@ -386,15 +394,7 @@ h2 {
 		margin: auto;
 
 	}
-
-
-	
-
-	
-
-
 }
-
 
 @media screen and (min-width: 768px){
 
