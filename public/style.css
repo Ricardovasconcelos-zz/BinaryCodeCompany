@@ -316,8 +316,8 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 }
 #centroDown{
 	text-align: center;
-	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 .tamanho-letra{
@@ -336,7 +336,7 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 #rodape{
 	background-color: #232121;
 	color: white;
-	padding-top: 50px;
+	padding-top: 20px;
 	width: 100%;
 	height: 70%;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
@@ -349,6 +349,10 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 .nomeCompany:hover{
 	color: yellow;
 	transition: all 0.5s;
+}
+.tamanho-icone{
+	width: 60px;
+	height: 60px;
 }
 /* ========================= Tipografia ======================== */
 h1{
@@ -379,13 +383,29 @@ h2 {
 		font-size: 20px;
 	}
 
-
+	.skill{
+		color: #a6a6a6;
+		font-family: 'Lora', serif;
+		text-align: center;
+		font-size: 17px;
+	}
+	.sub{
+		font-size: 14pt;
+		font-weight: 300;
+		color: #a6a6a6;
+		font-family: 'Playfair Display', serif;
+		text-align: center;
+	}
 	
 	#foto{
 		width: 200px;
 		height: 200px;
 		margin: auto;
 
+	}
+	.tamanho-jobs{
+		width: 180px;
+		height: 180px;;
 	}
 	
 }
@@ -406,7 +426,7 @@ h2 {
 #wares{
 	float: right;
 }	
-	
+
 }
 
 
