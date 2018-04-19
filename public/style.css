@@ -1,7 +1,9 @@
 /* ========================= layout ======================== */
+html {
+    height: 100%;
+}
 body{
-	
-	background: url('img/capa.jpg');
+	background: url('img/caps.jpg');
 	background-attachment: fixed;
 	overflow-x: hidden;
 	font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -11,8 +13,8 @@ body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
-
-
+	width: 100%;
+	height: 100%;
 }
 
 
@@ -82,7 +84,7 @@ height: 590px;
 }
 /* ========================= SERVIÇOS ======================== */
 #servicos{
-	background: white;
+	background: #f8f9fa;
 	padding-top: 10px;
 	padding-bottom: 100px;
 	
@@ -130,9 +132,9 @@ height: 590px;
 }
 /* ========================= SERVIÇOS ======================== */
 #trabalhos{
-	background: #f8f9fa;
+	background: white;
 	padding-top: 10px;
-	padding-bottom: 100px;
+	padding-bottom: 70px;
 	width: auto;
 }
 
@@ -229,7 +231,7 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 /* ========================= TECNOLOGIA ======================== */   
 #tecnologia{
 	background: #f8f9fa;
-	padding-top: 50px;
+	padding-top: 20px;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 	width: 100%;
 } 
@@ -242,7 +244,7 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 
 #legal{
 	background: white;
-	padding-top: 50px;
+	padding-top: 20px;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 	width: 100%;
 }
@@ -257,11 +259,10 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 
 /* ========================= CONTATO ======================== */   
 #contato{
-	background-color: #a432cb;
+	background-color: #1d809f!important;
 	color: white;
 	padding-top: 50px;
 	width: 100%;
-	height: 70%;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 	text-shadow: 4px 5px 20px rgba(0,0,0,5);
 	
@@ -311,14 +312,6 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
     box-shadow: 6px 7px 15px rgba(0,0,0,0.5);
 
 }
-#centro{
-	text-align: center;
-}
-#centroDown{
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
 
 .tamanho-letra{
     font-size: 40px;
@@ -326,10 +319,7 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
     letter-spacing: -0.03em;
     text-shadow: 4px 3px 3px rgba(0,0,0,0.2);
 }
-#bottom{
-	padding-bottom: 50px;
-	
-}
+
 
 
 /* ========================= RODAPÉ ======================== */
@@ -338,9 +328,22 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 	color: white;
 	padding-top: 20px;
 	width: 100%;
-	height: 70%;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 	text-shadow: 4px 5px 20px rgba(0,0,0,5);
+}
+
+#bottom{
+	padding-bottom: 30px;
+	
+}
+#centroDown{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#conts{
+	text-align: center;	
 }
 .nomeCompany{
 	font-weight: 900;
@@ -351,6 +354,7 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 	transition: all 0.5s;
 }
 .tamanho-icone{
+	margin-top: 15px;
 	width: 60px;
 	height: 60px;
 }
@@ -407,7 +411,11 @@ h2 {
 		width: 180px;
 		height: 180px;;
 	}
-	
+
+	#rodape{
+		height: 25%;
+	}
+
 }
 
 @media screen and (min-width: 768px){
@@ -445,7 +453,6 @@ h2 {
 }	
 
 	
-
 
 
 
