@@ -51,7 +51,8 @@ nav.navbar-transparente {
 	color: white;
 }
 .img-logo:hover{
-	color: yellow;
+	color: #fff707;
+	text-shadow: 1px 3px 30px black;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -60,7 +61,8 @@ nav.navbar-transparente {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover {
-	color: yellow;
+	color: #fff707;
+	text-shadow: 1px 1px 5px black;
 }
 /* ========================= IMAGEM CAPA ======================== */
 .capa{
@@ -146,82 +148,78 @@ height: 590px;
 	cursor: pointer;
 
 }
+
 /*-- IMG SUPERMERCADO ONLINE -- */
-.imagem-market{
-	background-image: url('img/market.jpg');  
-	height:300px;
-	width:319px;
-	background-size:100% auto;
-	text-align: center;
-	border-radius: 20px;
-	background-repeat: no-repeat;
-  }
-/*-- IMG PIZZA  -- */
-.imagem-pizza{
-	background-image: url('img/pizza.jpg');  
-	height:300px;
-	width:319px;
-	background-size:100% auto;
-	text-align: center;
-	border-radius: 20px;
-	background-repeat: no-repeat;
-}
-
-/*-- IMG SANDUICHE  -- */
-.imagem-sanduiche{
-	background-image: url('img/sanduba.jpg');  
-	text-align: center;
-	height:300px;
-	width:319px;
-	background-size:100% auto;
-	border-radius: 20px;
-}
-#espacamento-trabalhos{
-	margin-top: 20px;
-}
-
-.avatar {
-
-	display: inline-block;
-	
-}
-
-.avatar img {
-		display:block;
-	}
-
-.avatar img:hover{
-transition: all 0.5s;
--webkit-transform: scale(1.1);
--ms-transform: scale(1.1);
-transform: scale(1.1);
-box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
-}
-
-  .texto{
-	height:300px;
-	width:319px;
-	padding: 100px;
-	font-family:Arial;
-	text-align:center;
-	color:white;
-	opacity:0;
-	transition: opacity .2s linear;
-	background-color: rgba(39, 44, 110, 9);
-	border-radius: 20px;
-	
+   .portfolio-item {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	max-width: 530px;
+	margin: auto auto 1rem;
   }
   
-  .imagem-market:hover .texto{
-	opacity:1;
-   }
-   .imagem-pizza:hover .texto{
-	opacity:1;
-   }
-   .imagem-sanduiche:hover .texto{
-	opacity:1;
-   }
+  .portfolio-item .caption {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(33, 37, 41, 0.2);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+  }
+  
+  .portfolio-item .caption .caption-content {
+	color: #fff;
+	margin: auto 2rem 2rem;
+  }
+  
+  .portfolio-item .caption .caption-content h4 {
+	font-size: 17px;
+	font-weight: 700 ;
+	text-transform: uppercase;
+  }
+  
+  .portfolio-item .caption .caption-content p {
+	font-weight: 600;
+	font-size: 14px;
 
+  }
+  
+
+	.portfolio-item {
+	  max-width: none;
+	  margin: 0;
+	}
+	.portfolio-item .caption {
+	  -webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
+	  -webkit-clip-path: inset(0px);
+	  clip-path: inset(0px);
+	}
+	.portfolio-item .caption .caption-content {
+	  transition: opacity 0.25s;
+	  margin-left: 5rem;
+	  margin-right: 5rem;
+	  margin-bottom: 5rem;
+	}
+	.portfolio-item img {
+	  -webkit-transition: -webkit-clip-path 0.25s ease-out;
+	  -webkit-clip-path: inset(-1px);
+	  clip-path: inset(-1px);
+	}
+	.portfolio-item:hover img {
+	  -webkit-clip-path: inset(2rem);
+	  clip-path: inset(2rem);
+	}
+	.portfolio-item:hover .caption {
+	  background-color: rgba(29, 128, 159, 0.9);
+	  -webkit-clip-path: inset(2rem);
+	  clip-path: inset(2rem);
+	}
+  
+	#up-img{
+		margin-bottom: 20px;
+	}
 /* ========================= MONSTRANDO IMAGEM ======================== */
    .mostrar-img{
 	   width: 100%;
@@ -259,7 +257,7 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 
 /* ========================= CONTATO ======================== */   
 #contato{
-	background-color: #1d809f!important;
+	background-color: #1d809f;
 	color: white;
 	padding-top: 50px;
 	width: 100%;
@@ -299,11 +297,12 @@ box-shadow: 1px 3px 20px rgba(0,0,0,0.5);
 }
 
 .btn-roxo{
-	background: #007bff;
+	background: #ffc107;
+
 
 }
 .btn-roxo:hover{
-	background: yellow;
+	background: #d8a302;
 	color: white;
 	transition: all 0.6s;
     -webkit-transform: scale(1.1);
@@ -416,7 +415,12 @@ h2 {
 		height: 25%;
 	}
 
+	#mediadown{
+		padding-bottom: 20px;
+	}
+
 }
+
 
 @media screen and (min-width: 768px){
 
@@ -427,13 +431,14 @@ h2 {
 		margin-right: 50px;
 
 	}
-	
+
 
 
 
 #wares{
 	float: right;
 }	
+
 
 }
 
