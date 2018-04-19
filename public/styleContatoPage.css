@@ -146,6 +146,7 @@ nav.navbar-transparente {
 }
 
 #centro{
+
 	text-align: center;
 	
 }
@@ -173,9 +174,7 @@ nav.navbar-transparente {
 			
 	}
 
-	#imagem-mensagem{
-		margin-left: 30px;
-	}
+	
 
 	h2 {
 		font-size: 60px;
@@ -185,9 +184,7 @@ nav.navbar-transparente {
 }
 @media screen and (min-width: 768px){
 
-	#imagem-mensagem{
-		margin-left: 20px;
-	}
+	
 	
 	#foto{
 		width: 200px;
