@@ -59,6 +59,7 @@ nav.navbar-transparente {
 }
 .img-logo:hover{
 	color: #1d809f;
+	transition: all 0.7s;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -68,6 +69,7 @@ nav.navbar-transparente {
 
 .navbar-inverse .navbar-nav>li>a:hover {
 	color: #1d809f;
+	transition: all 0.7s;
 }
 
 /* ========================= CONTEÚDO ======================== */
