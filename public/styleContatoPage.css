@@ -1,4 +1,8 @@
 /* ========================= LAYOUT ======================== */
+html{
+	height: 100%;
+}
+
 body{
 	background-attachment: fixed;
 	overflow-x: hidden;
@@ -10,6 +14,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: top;
 	background-color: #f8f9fa;
+	height: 100%;
 }
 h2 {
     font-size: 70px;
@@ -192,18 +197,37 @@ nav.navbar-transparente {
 		margin: auto;
 		text-align: center;
 	}
+	
 }
 @media screen and (min-width: 992px){
 
 	#posicaoImagem{
 		margin-top: 100px;
 }
+}
+
 @media screen and (min-width: 1200px){
 
 	#posicaoImagem{
 		margin-top: 100px;
 }
+	#rodape{
+		margin-top: 9%;
 }
 
 }
+@media screen and (min-width: 1920px){
+	
+	#rodape{
+		margin-top: 33%;
+		height: 200px;
+		text-align: center;
+}
+ #centroDown{
+	 padding-top: 10px;
+ }
+
+}
+
+
 
