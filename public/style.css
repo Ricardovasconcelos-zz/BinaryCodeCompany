@@ -124,9 +124,9 @@ height: 100%;
 	
 }
 .titulo{
-    font-weight: 100;
-    font-size: 28pt;
-    font-family: 'Russo One', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    
    
 }
 .titulo-sobre{
@@ -135,6 +135,20 @@ height: 100%;
 	font-family: 'Russo One', sans-serif;
 	color: #404040;
 }
+.color-descricao{
+	color: white;
+	font-family: 'Lora', serif;
+	text-align: center;
+	font-size: 25px;
+}
+.color-nossolema{
+	color: white;
+}
+
+
+
+
+
 .skill{
 	color: #a6a6a6;
 	font-family: 'Lora', serif;
@@ -145,7 +159,7 @@ height: 100%;
     font-size: 20pt;
     font-weight: 300;
     color: #a6a6a6;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Lora', serif;
     text-align: center;
 }
 .titulo-servicos{
@@ -166,7 +180,7 @@ height: 100%;
 }
 /* ========================= SERVIÇOS ======================== */
 #trabalhos{
-	background: #f8f9fa;
+	background: white;
 	padding-top: 10px;
 	padding-bottom: 70px;
 	width: auto;
@@ -200,6 +214,18 @@ height: 100%;
 	bottom: 0;
 	z-index: 1;
   }
+  .portfolio-item .caption:hover {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(33, 37, 41, 0.2);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	z-index: 1;
+			
+	  
+  }
   
   .portfolio-item .caption .caption-content {
 	color: #fff;
@@ -207,14 +233,17 @@ height: 100%;
   }
   
   .portfolio-item .caption .caption-content h4 {
-	font-size: 17px;
+	font-size: 18px;
 	font-weight: 700 ;
-	text-transform: uppercase;
+	text-shadow: 1px 3px 20px black;
+	font-family: 'Lora', serif;
   }
   
   .portfolio-item .caption .caption-content p {
 	font-weight: 600;
-	font-size: 14px;
+	font-size: 20px;
+	text-shadow: 1px 3px 20px black;
+	font-family: 'Lora', serif;
 
   }
   
@@ -244,7 +273,8 @@ height: 100%;
 	  clip-path: inset(2rem);
 	}
 	.portfolio-item:hover .caption {
-	  background-color: rgba(255, 223,0, 0.3);
+		
+	  background-color: rgba(29, 128, 159, 0.8);
 	  -webkit-clip-path: inset(2rem);
 	  clip-path: inset(2rem);
 	}
@@ -260,7 +290,7 @@ height: 100%;
 
 /* ========================= TECNOLOGIA ======================== */   
 #tecnologia{
-	background: #f8f9fa;
+	background: #1d809f;
 	padding-top: 20px;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 	width: 100%;
@@ -300,6 +330,7 @@ height: 100%;
 .mensagem{
 	font-family: 'Lora', serif;
 	text-align: center;
+	font-size: 25px;
 }
 #boton{
 
@@ -307,12 +338,12 @@ height: 100%;
 	cursor: pointer;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 	display: block;
-	margin:auto;
-	margin-top: 40px;
+	margin-top: 30px;
 	text-align: center;
-	font-size: 18px;
-
-	text-shadow: 1px 1px 5px black
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-shadow: 1px 1px 5px black;
+	padding-top: -10px;
 }
 .btn-custom{
 
@@ -324,16 +355,16 @@ height: 100%;
 	transition: background 0.4s; color: 0.4s;
 	font-size: 15px;
 	text-align: center;
-	padding-top: 14px;
+	padding-top: 10px;
 
 }
 
-.btn-roxo{
+.btn-page{
 	background: #ffc107;
 
 
 }
-.btn-roxo:hover{
+.btn-page:hover{
 	background: #d8a302;
 	color: white;
 	transition: all 0.6s;
@@ -346,9 +377,10 @@ height: 100%;
 
 .tamanho-letra{
     font-size: 40px;
-    font-weight: 700;
-    letter-spacing: -0.03em;
-    text-shadow: 4px 3px 3px rgba(0,0,0,0.2);
+    font-weight: 900;
+    letter-spacing: 2px;
+	text-shadow: 4px 3px 3px rgba(0,0,0,0.2);
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 
 
@@ -363,9 +395,15 @@ height: 100%;
 	text-shadow: 4px 5px 20px rgba(0,0,0,5);
 	
 }
+#copy{
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	font-size: 19px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
 
-#bottom{
-	padding-bottom: 30px;
+#btn{
+	padding-bottom: 50px;
 	
 }
 #centroDown{
@@ -404,6 +442,11 @@ h2 {
     font-weight: 700;
     letter-spacing: -0.03em;
     text-shadow: 1px 3px 3px rgba(0,0,0,0.2);
+}
+
+.nome-app{
+	font-size: 25px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 }
 
 /* Media queries */
