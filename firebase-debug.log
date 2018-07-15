@@ -1,0 +1,18 @@
+[debug] [2018-07-15T05:57:07.435Z] ----------------------------------------------------------------------
+[debug] [2018-07-15T05:57:07.443Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Ricardo Vasconcelos\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-07-15T05:57:07.444Z] CLI Version:   3.17.7
+[debug] [2018-07-15T05:57:07.444Z] Platform:      win32
+[debug] [2018-07-15T05:57:07.444Z] Node Version:  v8.10.0
+[debug] [2018-07-15T05:57:07.446Z] Time:          Sun Jul 15 2018 02:57:07 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-07-15T05:57:07.446Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-15T05:57:07.490Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-15T05:57:07.493Z] > authorizing via signed-in user
+[debug] [2018-07-15T05:57:07.502Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/binarycodecompany-01  
+  
+ Sun Jul 15 2018 02:57:07 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-07-15T05:57:08.606Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-15T05:57:08.609Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/binarycodecompany-01/tokens  
+  
+ Sun Jul 15 2018 02:57:08 GMT-0300 (Hora oficial do Brasil)
+[debug] [2018-07-15T05:57:09.468Z] <<< HTTP RESPONSE 200
