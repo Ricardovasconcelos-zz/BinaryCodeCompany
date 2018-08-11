@@ -335,9 +335,9 @@ height: 100%;
 }
 
 #number{
-	font-family: 'Russo One', sans-serif;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 	font-weight: 700;
-	letter-spacing:3px;
+	letter-spacing:1px;
 	text-shadow: 4px 5px 20px rgba(0,0,0,0.6);
 }
 
@@ -415,26 +415,26 @@ height: 100%;
 	text-shadow: 4px 5px 20px rgba(0,0,0,0.4);
 }
 #curtapage{
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 	font-size: 15px;
-	font-weight: 700;
-	letter-spacing: 1px;
 	text-align: center;
-	margin-top: 30px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	font-weight: 500;
+
 }
 #copy{
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
 	font-size: 15px;
-	font-weight: 700;
-	letter-spacing: 1px;
 	text-align: center;
 	margin-bottom: 30px;
 	margin-top: 30px;
+	font-weight: 500;
 }
 #frase-stevejobs{
-	font-size: 15px;
-	font-weight: 700;
+	font-size: 14px;
+	font-family: 'Lora', serif;
+	text-align: center;
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+	font-weight: 500;
 }
 
 #btn{
@@ -451,7 +451,7 @@ height: 100%;
 	text-align: center;	
 }
 .nomeCompany{
-	font-weight: 900;
+	font-weight: 500;
 	color: white;
 }
 .nomeCompany:hover{
@@ -480,13 +480,12 @@ h2 {
 }
 
 h3{
-	font-family: 'Russo One', sans-serif;
+	
+	font-weight: 700;
+	letter-spacing: -0.02em;
 	
 }
-h4{
-	font-family: 'Russo One', sans-serif;
-	
-}
+
 
 /* ================================================== */
 
@@ -508,11 +507,11 @@ h4{
 		font-size: 20px;
 	}
 	h3{
-		font-family: 'Russo One', sans-serif;
+		
 		font-size: 20px;
 	}
 	h4{
-		font-family: 'Russo One', sans-serif;
+	
 		font-size: 17px;
 		
 	}
